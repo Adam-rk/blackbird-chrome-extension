@@ -3,11 +3,13 @@
   "name": "BlackBird",
   "description": "An extreme productivity tool",
   "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
       "js": ["popup.js"]
     }
-  ],
-  "host_permissions": ["<all_urls>"]
+  ]
 }
