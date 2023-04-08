@@ -23,4 +23,6 @@ function removeShortVideos() {
   });
 }
 
-setInterval(removeShortVideos, 100); 
+
+  setInterval(removeShortVideos, 100); 
+
